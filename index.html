@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Example</title>
+    <style>
+        /* Card Container */
+        .card {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: white;
+            margin: 20px auto;
+        }
+
+        /* Card Image */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+        }
+
+        /* Card Title */
+        .card h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        /* Card Description */
+        .card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        /* Card Button */
+        .card button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Button Hover Effect */
+        .card button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Card Component -->
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?nature" alt="Card Image">
+        <div class="card-content">
+            <h2>Beautiful Nature</h2>
+            <p>Explore the beauty of nature with this amazing view.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+
+</body>
+</html>
